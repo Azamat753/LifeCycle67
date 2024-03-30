@@ -49,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
         Glide.with(this).load(url).centerCrop().placeholder(R.drawable.ic_launcher_background).into(avatarView);
     }
 
+    void functionFromMaster(){
+
+    }
+
     private void initClickers() {
         galleryBtn.setOnClickListener(new View.OnClickListener() {
             @Override
